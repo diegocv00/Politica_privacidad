@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad | Mi App</title>
+    <meta name="description"
+        content="Política de privacidad oficial para nuestra aplicación. Infórmate sobre cómo protegemos tus datos y respetamos tu privacidad.">
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="page-container">
+        <header class="header">
+            <h1 id="main-title">Política de Privacidad</h1>
+            <p class="subtitle">Última actualización: 10 de febrero de 2026</p>
+        </header>
+
+        <section class="content-card glass">
+            <div class="content-section">
+                <h2>1. Introducción</h2>
+                <p>Bienvenido a nuestra aplicación. Tu privacidad es fundamental para nosotros. Esta Política de
+                    Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas
+                    nuestra aplicación móvil y servicios relacionados.</p>
+            </div>
+
+            <div class="content-section">
+                <h2>2. Información que Recopilamos</h2>
+                <p>Podemos recopilar información de diversas formas, incluyendo:</p>
+                <ul>
+                    <li><strong>Datos Personales:</strong> Información que tú nos proporcionas voluntariamente, como
+                        nombre, correo electrónico o preferencias si decides crear una cuenta.</li>
+                    <li><strong>Datos de Uso:</strong> Información recopilada automáticamente sobre tu interacción con
+                        la app (frecuencia de uso, funciones utilizadas).</li>
+                    <li><strong>Información del Dispositivo:</strong> Modelo de hardware, versión del sistema operativo
+                        e identificadores únicos.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>3. Proveedores de Servicios de Terceros</h2>
+                <p>Nuestra aplicación puede utilizar servicios de terceros para mejorar tu experiencia o para fines
+                    publicitarios:</p>
+                <div class="service-box">
+                    <h3>AdMob (Google)</h3>
+                    <p>Utilizamos AdMob para mostrar anuncios. Google puede recopilar y utilizar datos de identificación
+                        del dispositivo para personalizar los anuncios que ves. Puedes consultar la política de Google
+                        en <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">este enlace</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>4. Uso de la Información</h2>
+                <p>Utilizamos la información recopilada para:</p>
+                <ul>
+                    <li>Proporcionar y mantener las funcionalidades de la aplicación.</li>
+                    <li>Notificarte sobre cambios en nuestros servicios.</li>
+                    <li>Monitorear el uso de la aplicación para mejorar la experiencia técnica y visual.</li>
+                    <li>Mostrar publicidad relevante acorde a tus intereses.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>5. Tus Derechos</h2>
+                <p>Como usuario, tienes derecho a acceder, rectificar o eliminar tus datos personales que hayamos
+                    almacenado. Si deseas ejercer estos derechos, por favor contáctanos a través de los medios indicados
+                    abajo.</p>
+            </div>
+
+            <div class="content-section">
+                <h2>6. Seguridad de los Datos</h2>
+                <p>Implementamos medidas de seguridad administrativas, técnicas y físicas para proteger tu información
+                    personal. Sin embargo, ten en cuenta que ningún método de transmisión por Internet es 100% seguro.
+                </p>
+            </div>
+
+            <div class="content-section">
+                <h2>7. Contacto</h2>
+                <p>Si tienes preguntas o comentarios sobre esta Política de Privacidad, puedes contactarnos en:</p>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> diegocv60@gmail.com</p>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="page-footer">
+            <p>&copy; 2026 Todos los derechos reservados.</p>
+        </footer>
+    </main>
+
+    <script>
+        // Smooth appearance animation
+        document.addEventListener('DOMContentLoaded', () => {
+            const card = document.querySelector('.content-card');
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+
+            setTimeout(() => {
+                card.style.transition = 'all 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            }, 100);
+        });
+    </script>
+</body>
+
+</html>
